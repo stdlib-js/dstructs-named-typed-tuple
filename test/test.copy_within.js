@@ -41,12 +41,12 @@ tape( 'a tuple has a `copyWithin` method for copying a sequence of tuple element
 	Point = namedtypedtuple( [ 'x', 'y' ] );
 	p = new Point();
 
-	t.strictEqual( hasProp( p, 'copyWithin' ), true, 'has property' );
-	t.strictEqual( isFunction( p.copyWithin ), true, 'has method' );
+	t.strictEqual( hasProp( p, 'copyWithin' ), true, 'returns expected value' );
+	t.strictEqual( isFunction( p.copyWithin ), true, 'returns expected value' );
 	t.end();
 });
 
-tape( 'the method throws an error if invoked with a `this` context which is not a typed array instance', function test( t ) {
+tape( 'the method throws an error if invoked with a `this` context which is not a tuple instance', function test( t ) {
 	var values;
 	var Point;
 	var p;
@@ -78,7 +78,7 @@ tape( 'the method throws an error if invoked with a `this` context which is not 
 	}
 });
 
-tape( 'the method throws an error if invoked with a `this` context which is not a typed array instance (end)', function test( t ) {
+tape( 'the method throws an error if invoked with a `this` context which is not a tuple instance (end)', function test( t ) {
 	var values;
 	var Point;
 	var p;
