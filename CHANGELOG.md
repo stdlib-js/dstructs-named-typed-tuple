@@ -35,6 +35,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`f501596`](https://github.com/stdlib-js/stdlib/commit/f501596714b0f5d5d54416aefba7fff57b000760) - **test:** add tests for `toString` method in `dstructs/named-typed-tuple` [(#8041)](https://github.com/stdlib-js/stdlib/pull/8041) _(by Gaurav Kaushik, Athan Reines)_
 -   [`5d9761c`](https://github.com/stdlib-js/stdlib/commit/5d9761cfdea3389f82ca75aa262a9fc3ddf89439) - **feat:** implement `toLocaleString` method in `dstructs/named-typed-tuple` [(#8009)](https://github.com/stdlib-js/stdlib/pull/8009) _(by Gaurav Kaushik, Athan Reines, stdlib-bot)_
 -   [`90b8f5a`](https://github.com/stdlib-js/stdlib/commit/90b8f5a00c6a252d4f66b3d3e22ad8009efa96d6) - **test:** update test messages _(by Athan Reines)_
 -   [`389cecc`](https://github.com/stdlib-js/stdlib/commit/389cecc1b8f977b3923e2f2ed13aa119c25f5bc0) - **test:** fix variable name _(by Athan Reines)_
