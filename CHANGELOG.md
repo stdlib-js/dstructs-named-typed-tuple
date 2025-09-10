@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-08)
+## Unreleased (2025-09-10)
 
 <section class="features">
 
@@ -35,6 +35,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`d8ad76b`](https://github.com/stdlib-js/stdlib/commit/d8ad76b37fa2b01cd66585f6389f415f61246a63) - **test:** add tests for `toJSON` method in `dstructs/named-typed-tuple` [(#8049)](https://github.com/stdlib-js/stdlib/pull/8049) _(by Gaurav Kaushik, Athan Reines)_
 -   [`a540e07`](https://github.com/stdlib-js/stdlib/commit/a540e076b9bfeacd4c7e85add92d095f1ca042bf) - **test:** add tests for `forEach` method in `dstructs/named-typed-tuple` [(#8042)](https://github.com/stdlib-js/stdlib/pull/8042) _(by Gaurav Kaushik, Athan Reines)_
 -   [`f501596`](https://github.com/stdlib-js/stdlib/commit/f501596714b0f5d5d54416aefba7fff57b000760) - **test:** add tests for `toString` method in `dstructs/named-typed-tuple` [(#8041)](https://github.com/stdlib-js/stdlib/pull/8041) _(by Gaurav Kaushik, Athan Reines)_
 -   [`5d9761c`](https://github.com/stdlib-js/stdlib/commit/5d9761cfdea3389f82ca75aa262a9fc3ddf89439) - **feat:** implement `toLocaleString` method in `dstructs/named-typed-tuple` [(#8009)](https://github.com/stdlib-js/stdlib/pull/8009) _(by Gaurav Kaushik, Athan Reines, stdlib-bot)_
