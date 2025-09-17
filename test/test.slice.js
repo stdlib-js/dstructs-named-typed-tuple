@@ -339,7 +339,7 @@ tape( 'the method supports negative indices', function test( t ) {
 	t.end();
 });
 
-tape( 'the method returns null if a resolved beginning index exceeds a resolved ending index', function test( t ) {
+tape( 'the method returns an empty tuple if a resolved beginning index exceeds a resolved ending index', function test( t ) {
 	var actual;
 	var Point;
 	var p;
@@ -348,11 +348,12 @@ tape( 'the method returns null if a resolved beginning index exceeds a resolved 
 	p = new Point( [ 1, 2, 3, 4 ] );
 	actual = p.slice( 2, 0 );
 
-	t.strictEqual( actual, null, 'returns expected value' );
+	t.strictEqual( actual.length, 0, 'returns expected value' );
+	t.deepEqual( actual.fields, [], 'returns expected value' );
 	t.end();
 });
 
-tape( 'the method returns null if a resolved beginning index exceeds the maximum tuple index', function test( t ) {
+tape( 'the method returns an empty tuple if a resolved beginning index exceeds the maximum tuple index', function test( t ) {
 	var actual;
 	var Point;
 	var p;
@@ -361,11 +362,12 @@ tape( 'the method returns null if a resolved beginning index exceeds the maximum
 	p = new Point( [ 1, 2, 3 ] );
 	actual = p.slice( 5 );
 
-	t.strictEqual( actual, null, 'returns expected value' );
+	t.strictEqual( actual.length, 0, 'returns expected value' );
+	t.deepEqual( actual.fields, [], 'returns expected value' );
 	t.end();
 });
 
-tape( 'the method returns null if a resolved ending index is less than or equal to zero', function test( t ) {
+tape( 'the method returns an empty tuple if a resolved ending index is less than or equal to zero', function test( t ) {
 	var actual;
 	var Point;
 	var p;
@@ -374,9 +376,11 @@ tape( 'the method returns null if a resolved ending index is less than or equal 
 	p = new Point( [ 1, 2, 3, 4 ] );
 
 	actual = p.slice( 2, -8 );
-	t.strictEqual( actual, null, 'returns expected value' );
+	t.strictEqual( actual.length, 0, 'returns expected value' );
+	t.deepEqual( actual.fields, [], 'returns expected value' );
 
 	actual = p.slice( 1, 0 );
-	t.strictEqual( actual, null, 'returns expected value' );
+	t.strictEqual( actual.length, 0, 'returns expected value' );
+	t.deepEqual( actual.fields, [], 'returns expected value' );
 	t.end();
 });
