@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/dstructs-named-typed-tuple",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Named typed tuple.",
   "license": "Apache-2.0",
   "author": {
@@ -39,13 +39,13 @@
   "dependencies": {
     "@stdlib/array-dtype": "^0.3.0",
     "@stdlib/array-int8": "^0.2.2",
-    "@stdlib/array-typed": "^0.3.0",
+    "@stdlib/array-typed": "^0.3.1",
     "@stdlib/array-typed-dtypes": "^0.2.2",
     "@stdlib/assert-has-iterator-symbol-support": "^0.2.2",
     "@stdlib/assert-has-own-property": "^0.2.2",
     "@stdlib/assert-is-arraybuffer": "^0.2.2",
     "@stdlib/assert-is-collection": "^0.2.2",
-    "@stdlib/assert-is-empty-array-like-object": "^0.2.2",
+    "@stdlib/assert-is-empty-array-like-object": "^0.2.3",
     "@stdlib/assert-is-function": "^0.2.2",
     "@stdlib/assert-is-integer": "^0.2.2",
     "@stdlib/assert-is-object": "^0.2.2",
@@ -108,7 +108,6 @@
     "list",
     "object"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
