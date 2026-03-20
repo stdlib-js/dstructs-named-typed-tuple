@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-17)
+## Unreleased (2026-03-20)
 
 <section class="bug-fixes">
 
 ### Bug Fixes
 
+-   [`d989a29`](https://github.com/stdlib-js/stdlib/commit/d989a294f926e239674ee4efd0b443422ed01efe) - use correct index
 -   [`d4055ef`](https://github.com/stdlib-js/stdlib/commit/d4055eff4b8a040f25cf2b6508f424fe991f12e0) - ensure field resolution is preserved after sorting
 
 </section>
@@ -22,6 +23,7 @@
 
 <details>
 
+-   [`d989a29`](https://github.com/stdlib-js/stdlib/commit/d989a294f926e239674ee4efd0b443422ed01efe) - **fix:** use correct index _(by Athan Reines)_
 -   [`d4055ef`](https://github.com/stdlib-js/stdlib/commit/d4055eff4b8a040f25cf2b6508f424fe991f12e0) - **fix:** ensure field resolution is preserved after sorting _(by Athan Reines)_
 
 </details>
