@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-23)
+## Unreleased (2026-07-30)
 
 <section class="bug-fixes">
 
@@ -23,6 +23,7 @@
 
 <details>
 
+-   [`f9691b2`](https://github.com/stdlib-js/stdlib/commit/f9691b2086e0407d16a92e14fe72f92f87863fa6) - **test:** ensure backward compatibility in test assertion [(#13783)](https://github.com/stdlib-js/stdlib/pull/13783) _(by Philipp Burckhardt, Athan Reines)_
 -   [`abd06b9`](https://github.com/stdlib-js/stdlib/commit/abd06b9d24b3efb9a38a35c4fabcb428faaca44b) - **bench:** refactor to use string interpolation in `dstructs` [(#11617)](https://github.com/stdlib-js/stdlib/pull/11617) _(by Karan Anand)_
 -   [`d989a29`](https://github.com/stdlib-js/stdlib/commit/d989a294f926e239674ee4efd0b443422ed01efe) - **fix:** use correct index _(by Athan Reines)_
 -   [`d4055ef`](https://github.com/stdlib-js/stdlib/commit/d4055eff4b8a040f25cf2b6508f424fe991f12e0) - **fix:** ensure field resolution is preserved after sorting _(by Athan Reines)_
@@ -37,10 +38,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
